@@ -1,0 +1,18 @@
+Collecting gtts
+  Using cached gTTS-2.5.4-py3-none-any.whl.metadata (4.1 kB)
+Requirement already satisfied: requests<3,>=2.27 in c:\users\91992\desktop\new folder\llmapp\lib\site-packages (from gtts) (2.32.5)
+Collecting click<8.2,>=7.1 (from gtts)
+  Using cached click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Requirement already satisfied: colorama in c:\users\91992\desktop\new folder\llmapp\lib\site-packages (from click<8.2,>=7.1->gtts) (0.4.6)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\91992\desktop\new folder\llmapp\lib\site-packages (from requests<3,>=2.27->gtts) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\91992\desktop\new folder\llmapp\lib\site-packages (from requests<3,>=2.27->gtts) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\91992\desktop\new folder\llmapp\lib\site-packages (from requests<3,>=2.27->gtts) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\91992\desktop\new folder\llmapp\lib\site-packages (from requests<3,>=2.27->gtts) (2025.8.3)
+Downloading gTTS-2.5.4-py3-none-any.whl (29 kB)
+Using cached click-8.1.8-py3-none-any.whl (98 kB)
+Installing collected packages: click, gtts
+  Attempting uninstall: click
+    Found existing installation: click 8.3.0
+    Uninstalling click-8.3.0:
+      Successfully uninstalled click-8.3.0
+Successfully installed click-8.1.8 gtts-2.5.4
